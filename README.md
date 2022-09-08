@@ -32,4 +32,5 @@ This repository contains two different Python Notebooks:
 2. [write_to_neo4j.ipynb](shared-workspace/write_to_neo4j.ipynb) : In this notebook you will test the ingestion of a dataset of commercial orders. The ingestion process, without the creation of the Spark DataFrame, running the environment on a testing machine with 16Gb of RAM and a CPU with 4 cores, took almost 150 seconds (2.5 minutes).
 
 The final graph will have around 1.9 mln nodes and 2.6 mln relationships and the final schema that your database will have is: 
+
 ![alt ext](img/graph-2.png)
