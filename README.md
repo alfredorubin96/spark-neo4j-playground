@@ -18,7 +18,12 @@ If you want to code directly from the cluster, connect to Jupyterlab on:
 http://<ip_address_of_the_machine>:8888
 ```
 
-From Jupyterlab, you will see that in the workspace there are different Python Notebooks that will guide you on your first steps using the Neo4j Connector for Spark.
+If you want to access the Neo4j Browser of the container defined inside the docker-compose file (right now is commented, uncomment it only if you currently don't have a Neo4j instance on your machine or, if you want to have multiple Neo4j instances, provide different ports to the Neo4j container to prevent errors):
+```shell
+http://<ip_address_of_the_machine>:<external_port_of_the_neo4j_contaniner_mapped_to_internal_7474>
+```
+
+From Jupyter Lab, you will see that in the workspace there are different Python Notebooks that will guide you on your first steps using the Neo4j Connector for Spark.
 
 This repository contains two different Python Notebooks:
 
